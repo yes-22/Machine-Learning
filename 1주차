@@ -1,1 +1,109 @@
 https://yes-22.notion.site/1-_-16b89e2ba2fc80ad9cdaecc54af08ccc?pvs=4
+- **페이지 :  ~38p**
+- **발표 : 넘파이 부분 리뷰/발표**
+
+---
+
+<aside>
+🚩 **CHAPTER 01. 파이썬 기반의 머신러닝과 생태계 이해**
+
+</aside>
+
+### 01. 머신러닝의 개념
+
+- 애플리케이션을 수정하지 않고도 데이터를 기반으로 패턴을 학습하고 결과를 예측하는 알고리즘 기법
+- 외부 조건에 맞춰서 기존 로직을 다시 수정하고 검증하는 프로세스는 많은 시간과 비용을 요구
+    
+    ⇒ 머신 러닝은 훌륭한 솔루션
+    
+- 데이터를 기반으로 숨겨진 패턴을 인지해 해결
+- 데이터를 기반으로 통계적인 신뢰도를 강화하고 예측 오류를 최소화하기 위한 다양한 수학적 기법을 적용
+    
+    → 데이터 내의 패턴을 스스로 인지하고 신뢰도 있는 예측 결과 도출
+    
+
+**[ 머신 러닝의 분류 ]** 
+
+- **지도 학습**
+    - 분류
+    - 회귀
+    - 추천 시스템
+    - 시각/음성 감지/인지
+    - 텍스트 분석, NLP
+- **비지도 학습**
+    - 클러스터링
+    - 타원 축소
+    - 강화 학습
+
+**[ 데이터 전쟁 ]** 
+
+- 머신러닝 → 데이터에 매우 의존 적
+    
+    ⇒ 좋은 품질의 데이터를 갖추지 못하면 머신러닝의 수행 결과도 좋을 수 없음 
+    
+- 데이터를 이해하고 효율적으로 가공, 처리, 추출해 최적의 데이터를 기반으로 알고리즘을 구동할 수 있도록 준비하는 능력 중요
+
+### 02. 파이썬 머신러닝 생태계를 구성하는 주요 패키지
+
+- 파이썬 머신러닝을 위한 S/W 설치
+- Anaconda
+    
+    [Download Now | Anaconda](https://www.anaconda.com/download/success)
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/3a090588-38ad-4a52-9514-2a1b054d0c55/image.png)
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/42d23ade-a417-46f9-9937-2f61db350556/image.png)
+    
+    경로를 설정해 준다
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/7c196ab3-732a-44e1-ac29-1e5c3083313b/image.png)
+    
+    기본 선택되어 있는 것들 설치해주기
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/54db513e-7ade-4468-9681-c22a5c75a373/8b8782c8-6836-46ba-9c2b-8dffb33386b3.png)
+    
+    잘 설치 되었음을 확인할 수 있다.
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/697904a0-698a-4130-9df6-a68e462c5645/image.png)
+    
+    전체 파이썬 패키지 설치를 위해서는 Anaconda Prompt를 관리자 권한으로 실행해야 한다 
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/136a8b39-8bdd-45b8-9f03-531bb8d6fe46/image.png)
+    
+    Python 3.12.7 버전이 설치되어 있다
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/bcdc44a0-8c31-44b5-80d0-d5eb1a97f901/image.png)
+    
+    해당 아이콘을 클릭하는 주피터 노트북을 구동하기 위한 서버 프로그램이 실행
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/4bba973c-1932-4a5e-b993-a1b41f4ebf47/image.png)
+    
+    http://localhost:8888에 접속하면 사용 가능
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/d260b24a-fcdc-4d0d-a42e-86607761815d/image.png)
+    
+    New → Python3을 통해 새로운 주피터 노트북 생성
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/a64e58b5-3fae-4825-9666-7aa0408a5033/image.png)
+    
+    새로 생성되고 있음
+    
+    디폴트 디렉터리는 ‘C:\Users\사용자명’ 
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc11bbcf-f5de-4e16-a9fe-d49c2dcc2838/5d52d37d-0425-4cd6-965c-ee64dcbfa2da/image.png)
+    
+    ```python
+    import numpy
+    import pandas
+    import matplotlib.pyplot
+    import seaborn
+    from sklearn.model_selection import train_test_split 
+    ```
+    
+    오류가 발생하지 않으면 정상적으로 설치 완료된 것 
+    
+- Viusal Studio는 기존에 설치되어 있어서 생략
+
+### 03. 넘파이
+
+-
