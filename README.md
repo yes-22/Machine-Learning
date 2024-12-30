@@ -1,5 +1,4 @@
-# JAVA-Study
-with. @userri
+# Machine-Learning
+- DataFirt 공부내용 기록
 
-1. 코딩 테스트 준비
-2. 프로젝트 준비 
+- 교재 : 파이썬 머신러닝 완벽 가이드
